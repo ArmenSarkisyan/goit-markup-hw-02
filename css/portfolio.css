@@ -13,14 +13,23 @@
 .page {
     font-family: var(--main-font);
     font-size: 16px;
-    line-height: calc(30 / 18);
+    line-height: calc(30 / 16);
     letter-spacing: 0.03em;
-    background: #F5F5F5;
+    background-color: var(--main-bck-cl);
+    color: var(--main-txt-cl);
 }
 
 a {text-decoration: none;}
 ul {list-style: none;}
 .button {cursor: pointer;}
+
+button {
+    cursor: pointer;
+}
+
+p {
+    font-style: normal;
+}
 
 /* header */
 
@@ -132,7 +141,6 @@ h1, h2 {display: none}
     top: 616px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
@@ -152,7 +160,6 @@ h1, h2 {display: none}
     top: 2205px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -166,7 +173,6 @@ h1, h2 {display: none}
     top: 2235px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
