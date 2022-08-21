@@ -1,0 +1,234 @@
+:root {
+    /* fonts */
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    /* text corols */
+    --main-txt-cl: #757575;
+    --secondary-txt-cl: #212121;
+}
+
+.page {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+}
+a {text-decoration: none;}
+.team-title {display:none}
+
+/* header */
+.logo {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo2 {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.foot-logo2 {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2154px;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.nav-link:hover,
+.nav-link:focus {color: #2196F3;}
+.nav-link:active {color: #2196F3;}
+.nav-link {
+    width: 72px;
+    height: 16px;
+    left: 548px;
+    top: 32px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3;
+}
+.add-text:hover,
+.add-text:focus {
+    color: #2196F3;
+}
+
+ul {list-style: none;}
+/* main */
+
+h1 {text-transform: uppercase;}
+.hero {background-color: #2F303A;}
+.part-name {
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.part-text {
+    width: 270px;
+    height: 72px;
+    left: 215px;
+    top: 800px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.act-title {
+    width: 366px;
+    height: 42px;
+    left: 617px;
+    top: 966px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.hero-title {
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    background: #2196F3;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.button-text {
+    width: 152px;
+    height: 30px;
+    left: 724px;
+    top: 440px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.part-title {display:none;}
+
+.team-title {
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 1540px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-member {
+    width: 104px;
+    height: 19px;
+    left: 598px;
+    top: 1922px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-work {
+    width: 147px;
+    height: 19px;
+    left: 577px;
+    top: 1951px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* footer */
+.foot {
+    background-color: #2F303A;
+}
+
+.address-text {
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2205px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.add-text {
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2235px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
