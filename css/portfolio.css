@@ -103,7 +103,8 @@ h1, h2 {display: none}
 
 .filter-button:hover,
 .filter-button:focus {
-    color: #2196F3;
+    background-color: #2196F3;
+    color:#FFFFFF;
 }
 .filter-button {
     background: #F5F4FA;
